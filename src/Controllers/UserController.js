@@ -239,7 +239,7 @@ UserRouter.post("/ResetPasswordRequest", async function(req, res) {
 
 UserRouter.get("/LinkToResetPassword", async function(req, res){
   const email = req.query.email;
-  res.redirect('https://www.rustore.ru');
+  res.redirect('https://apps.rustore.ru/app/com.reepovv.myapplication');
 });
 
 UserRouter.post("/ResetPassword", async function(req, res){

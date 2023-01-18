@@ -162,7 +162,7 @@ PoemsRouter.get("/GetPoemById", function(req, res){
 
 PoemsRouter.get("/Redirect", function(req, res){
     const poemId = req.query.poemId;
-    res.redirect('https://www.rustore.ru');
+    res.redirect('https://apps.rustore.ru/app/com.reepovv.myapplication');
 });
 
 //  http://localhost:3333/api/Poems/GetListOfRandomPoems?userId=
